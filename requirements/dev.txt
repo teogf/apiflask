@@ -10,7 +10,7 @@ attrs==21.2.0
     # via
     #   jsonschema
     #   pytest
-backports.entry-points-selectable==1.1.0
+backports-entry-points-selectable==1.1.0
     # via virtualenv
 cfgv==3.3.1
     # via pre-commit
@@ -168,7 +168,7 @@ tomli==1.2.2
     # via
     #   coverage
     #   pep517
-tox==3.24.4
+tox==3.25.0
     # via -r requirements/dev.in
 typing-extensions==3.10.0.2
     # via mypy
