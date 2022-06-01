@@ -33,13 +33,13 @@ mkdocs==1.2.3
     #   mkdocs-autorefs
     #   mkdocs-material
     #   mkdocstrings
-mkdocs-autorefs==0.3.0
+mkdocs-autorefs==0.4.1
     # via mkdocstrings
 mkdocs-material==8.0.2
     # via -r requirements/docs.in
 mkdocs-material-extensions==1.0.3
     # via mkdocs-material
-mkdocstrings==0.16.2
+mkdocstrings==0.19.0
     # via -r requirements/docs.in
 packaging==21.2
     # via mkdocs
@@ -53,8 +53,6 @@ pyparsing==2.4.7
     # via packaging
 python-dateutil==2.8.2
     # via ghp-import
-pytkdocs==0.12.0
-    # via mkdocstrings
 pyyaml==6.0
     # via
     #   mkdocs
