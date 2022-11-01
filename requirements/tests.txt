@@ -12,6 +12,8 @@ attrs==21.2.0
     #   pytest
 coverage[toml]==6.1.1
     # via pytest-cov
+exceptiongroup==1.0.0
+    # via pytest
 flake8==4.0.1
     # via -r requirements/tests.in
 iniconfig==1.1.1
@@ -32,8 +34,6 @@ packaging==21.2
     # via pytest
 pluggy==1.0.0
     # via pytest
-py==1.10.0
-    # via pytest
 pycodestyle==2.8.0
     # via flake8
 pyflakes==2.4.0
@@ -42,7 +42,7 @@ pyparsing==2.4.7
     # via packaging
 pyrsistent==0.18.0
     # via jsonschema
-pytest==6.2.5
+pytest==7.2.0
     # via
     #   -r requirements/tests.in
     #   pytest-cov
@@ -54,7 +54,7 @@ six==1.16.0
     # via
     #   openapi-schema-validator
     #   openapi-spec-validator
-toml==0.10.2
-    # via pytest
 tomli==1.2.2
-    # via coverage
+    # via
+    #   coverage
+    #   pytest
