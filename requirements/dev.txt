@@ -4,13 +4,13 @@
 #
 #    pip-compile requirements/dev.in
 #
-asgiref==3.4.1
+asgiref==3.6.0
     # via -r requirements/tests.in
 attrs==21.2.0
     # via
     #   jsonschema
     #   pytest
-backports.entry-points-selectable==1.1.0
+backports-entry-points-selectable==1.1.0
     # via virtualenv
 cfgv==3.3.1
     # via pre-commit
