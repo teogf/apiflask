@@ -10,8 +10,10 @@ attrs==21.2.0
     # via
     #   jsonschema
     #   pytest
-backports.entry-points-selectable==1.1.0
+backports-entry-points-selectable==1.1.0
     # via virtualenv
+build==0.10.0
+    # via pip-tools
 cfgv==3.3.1
     # via pre-commit
 click==8.0.3
@@ -97,12 +99,11 @@ openapi-spec-validator==0.3.1
     # via -r requirements/tests.in
 packaging==21.2
     # via
+    #   build
     #   mkdocs
     #   pytest
     #   tox
-pep517==0.12.0
-    # via pip-tools
-pip-tools==6.4.0
+pip-tools==6.12.2
     # via -r requirements/dev.in
 platformdirs==2.4.0
     # via virtualenv
@@ -128,6 +129,8 @@ pymdown-extensions==9.0
     #   mkdocstrings
 pyparsing==2.4.7
     # via packaging
+pyproject-hooks==1.0.0
+    # via build
 pyrsistent==0.18.0
     # via jsonschema
 pytest==6.2.5
@@ -165,9 +168,7 @@ toml==0.10.2
     #   pytest
     #   tox
 tomli==1.2.2
-    # via
-    #   coverage
-    #   pep517
+    # via coverage
 tox==3.24.4
     # via -r requirements/dev.in
 typing-extensions==3.10.0.2
