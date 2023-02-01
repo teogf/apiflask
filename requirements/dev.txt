@@ -10,7 +10,7 @@ attrs==21.2.0
     # via
     #   jsonschema
     #   pytest
-backports.entry-points-selectable==1.1.0
+backports-entry-points-selectable==1.1.0
     # via virtualenv
 cfgv==3.3.1
     # via pre-commit
@@ -110,7 +110,7 @@ pluggy==1.0.0
     # via
     #   pytest
     #   tox
-pre-commit==2.16.0
+pre-commit==3.0.2
     # via -r requirements/dev.in
 py==1.10.0
     # via
@@ -161,7 +161,6 @@ sqlalchemy==1.4.26
 toml==0.10.2
     # via
     #   mypy
-    #   pre-commit
     #   pytest
     #   tox
 tomli==1.2.2
