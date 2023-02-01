@@ -10,7 +10,7 @@ attrs==21.2.0
     # via
     #   jsonschema
     #   pytest
-backports.entry-points-selectable==1.1.0
+backports-entry-points-selectable==1.1.0
     # via virtualenv
 cfgv==3.3.1
     # via pre-commit
@@ -113,9 +113,7 @@ pluggy==1.0.0
 pre-commit==2.16.0
     # via -r requirements/dev.in
 py==1.10.0
-    # via
-    #   pytest
-    #   tox
+    # via tox
 pycodestyle==2.8.0
     # via flake8
 pyflakes==2.4.0
@@ -130,7 +128,7 @@ pyparsing==2.4.7
     # via packaging
 pyrsistent==0.18.0
     # via jsonschema
-pytest==6.2.5
+pytest==7.2.1
     # via
     #   -r requirements/tests.in
     #   pytest-cov
@@ -162,7 +160,6 @@ toml==0.10.2
     # via
     #   mypy
     #   pre-commit
-    #   pytest
     #   tox
 tomli==1.2.2
     # via
