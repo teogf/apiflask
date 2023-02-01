@@ -10,7 +10,7 @@ attrs==21.2.0
     # via
     #   jsonschema
     #   pytest
-backports.entry-points-selectable==1.1.0
+backports-entry-points-selectable==1.1.0
     # via virtualenv
 cfgv==3.3.1
     # via pre-commit
@@ -43,8 +43,6 @@ importlib-metadata==4.8.1
     # via mkdocs
 iniconfig==1.1.1
     # via pytest
-isodate==0.6.0
-    # via openapi-schema-validator
 itsdangerous==2.0.1
     # via flask
 jinja2==3.0.2
@@ -55,8 +53,13 @@ jinja2==3.0.2
     #   mkdocstrings
 jsonschema==4.1.2
     # via
+    #   jsonschema-spec
     #   openapi-schema-validator
     #   openapi-spec-validator
+jsonschema-spec==0.1.3
+    # via openapi-spec-validator
+lazy-object-proxy==1.9.0
+    # via openapi-spec-validator
 markdown==3.3.4
     # via
     #   mkdocs
@@ -91,15 +94,17 @@ mypy-extensions==0.4.3
     # via mypy
 nodeenv==1.6.0
     # via pre-commit
-openapi-schema-validator==0.1.5
+openapi-schema-validator==0.4.2
     # via openapi-spec-validator
-openapi-spec-validator==0.3.1
+openapi-spec-validator==0.5.2
     # via -r requirements/tests.in
 packaging==21.2
     # via
     #   mkdocs
     #   pytest
     #   tox
+pathable==0.4.3
+    # via jsonschema-spec
 pep517==0.12.0
     # via pip-tools
 pip-tools==6.4.0
@@ -142,17 +147,14 @@ pytkdocs==0.12.0
     # via mkdocstrings
 pyyaml==6.0
     # via
+    #   jsonschema-spec
     #   mkdocs
-    #   openapi-spec-validator
     #   pre-commit
     #   pyyaml-env-tag
 pyyaml-env-tag==0.1
     # via mkdocs
 six==1.16.0
     # via
-    #   isodate
-    #   openapi-schema-validator
-    #   openapi-spec-validator
     #   python-dateutil
     #   tox
     #   virtualenv
@@ -170,8 +172,10 @@ tomli==1.2.2
     #   pep517
 tox==3.24.4
     # via -r requirements/dev.in
-typing-extensions==3.10.0.2
-    # via mypy
+typing-extensions==4.4.0
+    # via
+    #   jsonschema-spec
+    #   mypy
 virtualenv==20.10.0
     # via
     #   pre-commit
